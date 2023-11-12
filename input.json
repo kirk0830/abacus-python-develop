@@ -1,0 +1,30 @@
+{
+    "general": {
+        "calculation": "scf",
+        "basis_type": "pw",
+        "ecutwfc": 30,
+        "ecutrho": 300
+    },
+    "systems": {
+
+    },
+    "electrons": {
+        "conv_thr": 1e-8
+    },
+    "kpoints": {
+        "kpoints": [[0.0, 0.0, 0.0], [0.5, 0.5, 0.5]],
+        "kpoint_shifts": [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]],
+        "kpoint_weights": [1.0, 1.0]
+    },
+    "atomic_species": [
+        {
+            "name": "Si",
+            "mass": 28.0855,
+            "pseudo_file": "Si.pbe-n-kjpaw_psl.1.0.0.UPF"
+        }
+    ],
+    "atomic_positions": {
+        "positions": [[0.0, 0.0, 0.0], [0.25, 0.25, 0.25]],
+        "units": "crystal"
+    }
+}

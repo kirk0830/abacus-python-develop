@@ -1,3 +1,6 @@
+# python package configuration
+
+# following contents are auto-configured by Github
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
